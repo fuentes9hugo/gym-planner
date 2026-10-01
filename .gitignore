@@ -1,0 +1,20 @@
+# Entorno virtual y dependencias (uv / python)
+.venv/
+venv/
+
+# Caché y archivos compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Archivos temporales de Linux y editores
+*~
+.directory
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
