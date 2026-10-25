@@ -27,19 +27,19 @@ app = FastAPI(
 # Endpoint definition
 
 # Default
-# GET entry /
+# GET /
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
 
 
 # Muscles
-# GET entry /muscles
+# GET /muscles
 @app.get("/muscles", tags=["muscles"])
 async def read_muscles():
     return await muscles.get_muscles()
 
-
+# GET /muscles/{muscle_id}
 @app.get("/muscles/{muscle_id}",tags=["muscles"])
-async def read_ingredient(muscle_id: int):
+async def read_muscle(muscle_id: int):
     return await muscles.get_muscle(muscle_id)
