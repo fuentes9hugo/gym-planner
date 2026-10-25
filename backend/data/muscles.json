@@ -1,0 +1,220 @@
+{
+  "muscles": [
+    {
+      "id": 1,
+      "name": "Pectoral mayor",
+      "muscle_group": "Pecho",
+      "location": "Anterior superior del torso",
+      "primary_function": "Aducción horizontal y flexión del brazo en la articulación del hombro",
+      "movement_pattern": "Empuje horizontal",
+      "key_exercises": ["Press de banca plano", "Flexiones", "Aperturas con mancuernas"]
+    },
+    {
+      "id": 2,
+      "name": "Pectoral menor",
+      "muscle_group": "Pecho",
+      "location": "Profundo, por debajo del pectoral mayor",
+      "primary_function": "Depresión y estabilización de la escápula",
+      "movement_pattern": "Estabilización escapular",
+      "key_exercises": ["Fondos en paralelas", "Press declinado"]
+    },
+    {
+      "id": 3,
+      "name": "Dorsal ancho",
+      "muscle_group": "Espalda",
+      "location": "Región posterior inferior y lateral del tronco",
+      "primary_function": "Extensión, aducción y rotación interna del húmero",
+      "movement_pattern": "Tracción vertical y horizontal",
+      "key_exercises": ["Dominadas", "Jalón al pecho", "Remo con barra"]
+    },
+    {
+      "id": 4,
+      "name": "Trapecio (superior, medio e inferior)",
+      "muscle_group": "Espalda",
+      "location": "Parte posterior del cuello y tórax superior",
+      "primary_function": "Elevación, retracción y rotación ascendente/descendente de la escápula",
+      "movement_pattern": "Retracción y elevación escapular",
+      "key_exercises": ["Encogimientos de hombros", "Face pulls", "Paseo del granjero"]
+    },
+    {
+      "id": 5,
+      "name": "Romboides (mayor y menor)",
+      "muscle_group": "Espalda",
+      "location": "Entre la columna vertebral y el borde medial de la escápula",
+      "primary_function": "Retracción y fijación de la escápula hacia la columna",
+      "movement_pattern": "Tracción horizontal",
+      "key_exercises": ["Remo sentado en polea", "Remo con mancuerna a una mano"]
+    },
+    {
+      "id": 6,
+      "name": "Erectores de la columna",
+      "muscle_group": "Espalda / Core",
+      "location": "A lo largo de toda la columna vertebral",
+      "primary_function": "Extensión y estabilización isométrica de la columna",
+      "movement_pattern": "Bisagra de cadera / Antiflexión",
+      "key_exercises": ["Peso muerto", "Hiperextensiones", "Buenos días"]
+    },
+    {
+      "id": 7,
+      "name": "Deltoides anterior",
+      "muscle_group": "Hombros",
+      "location": "Cara frontal del hombro",
+      "primary_function": "Flexión y rotación interna del húmero",
+      "movement_pattern": "Empuje vertical",
+      "key_exercises": ["Press militar", "Elevaciones frontales", "Press Arnold"]
+    },
+    {
+      "id": 8,
+      "name": "Deltoides lateral (medio)",
+      "muscle_group": "Hombros",
+      "location": "Cara lateral exterior del hombro",
+      "primary_function": "Abducción del brazo a partir de los 15 grados",
+      "movement_pattern": "Abducción",
+      "key_exercises": ["Elevaciones laterales", "Remo al mentón agarre abierto"]
+    },
+    {
+      "id": 9,
+      "name": "Deltoides posterior",
+      "muscle_group": "Hombros",
+      "location": "Cara posterior del hombro",
+      "primary_function": "Extensión y abducción horizontal del húmero",
+      "movement_pattern": "Tracción y aislamiento",
+      "key_exercises": ["Pájaros con mancuernas", "Cruces invertidos en polea", "Face pulls"]
+    },
+    {
+      "id": 10,
+      "name": "Bíceps braquial (cabeza corta y larga)",
+      "muscle_group": "Brazos",
+      "location": "Región anterior del brazo",
+      "primary_function": "Flexión del codo y supinación del antebrazo",
+      "movement_pattern": "Aislamiento de tracción",
+      "key_exercises": ["Curl con barra", "Curl con mancuernas alterno", "Curl predicador"]
+    },
+    {
+      "id": 11,
+      "name": "Braquial anterior",
+      "muscle_group": "Brazos",
+      "location": "Profundo al bíceps, tercio inferior del brazo",
+      "primary_function": "Flexor puro del codo en cualquier posición del antebrazo",
+      "movement_pattern": "Aislamiento de tracción",
+      "key_exercises": ["Curl martillo", "Curl inverso"]
+    },
+    {
+      "id": 12,
+      "name": "Tríceps braquial (cabeza lateral, medial y larga)",
+      "muscle_group": "Brazos",
+      "location": "Región posterior del brazo",
+      "primary_function": "Extensión de la articulación del codo",
+      "movement_pattern": "Empuje y aislamiento",
+      "key_exercises": ["Press de banca agarre cerrado", "Extensiones en polea alta", "Press francés"]
+    },
+    {
+      "id": 13,
+      "name": "Antebrazos (flexores y extensores de muñeca)",
+      "muscle_group": "Brazos",
+      "location": "Segmento distal del miembro superior",
+      "primary_function": "Flexión, extensión de muñeca y fuerza de agarre",
+      "movement_pattern": "Agarre y flexo-extensión",
+      "key_exercises": ["Curl de muñeca", "Colgadas pasivas en barra", "Paseo del granjero"]
+    },
+    {
+      "id": 14,
+      "name": "Recto abdominal",
+      "muscle_group": "Core / Abdominales",
+      "location": "Cara anterior del abdomen",
+      "primary_function": "Flexión de la columna vertebral y compresión visceral",
+      "movement_pattern": "Antiextensión / Flexión de tronco",
+      "key_exercises": ["Crunches en polea", "Elevaciones de piernas suspendido", "Rueda abdominal"]
+    },
+    {
+      "id": 15,
+      "name": "Oblicuos (externo e interno)",
+      "muscle_group": "Core / Abdominales",
+      "location": "Paredes anterolaterales del abdomen",
+      "primary_function": "Rotación y flexión lateral del tronco; antirotación",
+      "movement_pattern": "Antirotación / Flexión lateral",
+      "key_exercises": ["Press Pallof", "Plancha lateral", "Woodchoppers en polea"]
+    },
+    {
+      "id": 16,
+      "name": "Transverso del abdomen",
+      "muscle_group": "Core / Abdominales",
+      "location": "Capa profunda de la pared abdominal",
+      "primary_function": "Presión intraabdominal y estabilización lumbopélvica",
+      "movement_pattern": "Estabilización isométrica",
+      "key_exercises": ["Plancha isométrica frontal", "Vacío abdominal", "Bird dog"]
+    },
+    {
+      "id": 17,
+      "name": "Cuádriceps femoral (recto femoral, vastos lateral, medial e intermedio)",
+      "muscle_group": "Piernas",
+      "location": "Compartimento anterior del muslo",
+      "primary_function": "Extensión de la rodilla y flexión secundaria de cadera",
+      "movement_pattern": "Dominante de rodilla",
+      "key_exercises": ["Sentadilla trasera", "Prensa de piernas", "Extensiones de cuádriceps", "Sentadilla búlgara"]
+    },
+    {
+      "id": 18,
+      "name": "Isquiosurales (bíceps femoral, semitendinoso, semimembranoso)",
+      "muscle_group": "Piernas",
+      "location": "Compartimento posterior del muslo",
+      "primary_function": "Flexión de rodilla y extensión de cadera",
+      "movement_pattern": "Dominante de cadera / Flexión de rodilla",
+      "key_exercises": ["Peso muerto rumano", "Curl femoral acostado", "Glute ham raise"]
+    },
+    {
+      "id": 19,
+      "name": "Glúteo mayor",
+      "muscle_group": "Piernas / Glúteos",
+      "location": "Región posterior de la pelvis",
+      "primary_function": "Extensión potente y rotación externa de la cadera",
+      "movement_pattern": "Dominante de cadera",
+      "key_exercises": ["Hip thrust", "Sentadilla profunda", "Paseo en zancadas"]
+    },
+    {
+      "id": 20,
+      "name": "Glúteo medio y menor",
+      "muscle_group": "Piernas / Glúteos",
+      "location": "Región lateral y superior de la cadera",
+      "primary_function": "Abducción y estabilización de la pelvis en apoyo unípodo",
+      "movement_pattern": "Abducción y estabilización",
+      "key_exercises": ["Abducciones en polea", "Paseos con banda elástica", "Step ups"]
+    },
+    {
+      "id": 21,
+      "name": "Aductores (mayor, largo, corto y grácil)",
+      "muscle_group": "Piernas",
+      "location": "Cara interna del muslo",
+      "primary_function": "Aducción de la cadera y estabilización de sentadillas profundas",
+      "movement_pattern": "Aducción",
+      "key_exercises": ["Máquina de aductores", "Sentadilla sumo", "Sentadilla Cossack"]
+    },
+    {
+      "id": 22,
+      "name": "Gastrocnemio (gemelos)",
+      "muscle_group": "Piernas / Pantorrillas",
+      "location": "Compartimento posterior superficial de la pierna",
+      "primary_function": "Flexión plantar del tobillo con rodilla extendida",
+      "movement_pattern": "Aislamiento de tobillo",
+      "key_exercises": ["Elevación de talones de pie", "Elevación de talones en prensa"]
+    },
+    {
+      "id": 23,
+      "name": "Sóleo",
+      "muscle_group": "Piernas / Pantorrillas",
+      "location": "Profundo al gastrocnemio",
+      "primary_function": "Flexión plantar constante con rodilla flexionada",
+      "movement_pattern": "Aislamiento de tobillo",
+      "key_exercises": ["Elevación de talones sentado en máquina"]
+    },
+    {
+      "id": 24,
+      "name": "Tibial anterior",
+      "muscle_group": "Piernas / Pantorrillas",
+      "location": "Cara anterior y lateral de la tibia",
+      "primary_function": "Dorsiflexión e inversión del pie",
+      "movement_pattern": "Dorsiflexión",
+      "key_exercises": ["Elevaciones de punteras con carga", "Caminatas sobre talones"]
+    }
+  ]
+}

@@ -1,12 +1,10 @@
 from fastapi import FastAPI
+from docs import tags_metadata
+from musclesdata import MusclesData
 
 
-tags_metadata = [
-    {
-        "name": "muscles",
-        "description": "Muscles CRUD related actions"
-    }
-]
+# Objeto para trabajar con los datos de prueba
+muscles = MusclesData()
 
 # FastAPI object app
 app = FastAPI(
@@ -26,14 +24,22 @@ app = FastAPI(
 
 
 # APIRESTful configuration
+# Endpoint definition
 
+# Default
 # GET entry /
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
 
 
+# Muscles
 # GET entry /muscles
 @app.get("/muscles", tags=["muscles"])
-def read_muscles():
-    return {"Object": "Muscles"}
+async def read_muscles():
+    return await muscles.get_muscles()
+
+
+@app.get("/muscles/{muscle_id}",tags=["muscles"])
+async def read_ingredient(muscle_id: int):
+    return await muscles.get_muscle(muscle_id)
