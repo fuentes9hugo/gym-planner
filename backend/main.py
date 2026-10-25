@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Response, status
 from docs import tags_metadata
 from musclesdata import MusclesData
 
@@ -40,6 +40,12 @@ async def read_muscles():
     return await muscles.get_muscles()
 
 # GET /muscles/{muscle_id}
-@app.get("/muscles/{muscle_id}",tags=["muscles"])
-async def read_muscle(muscle_id: int):
-    return await muscles.get_muscle(muscle_id)
+@app.get("/muscles/{muscle_id}",tags=["muscles"], status_code=status.HTTP_200_OK)
+async def read_muscle(muscle_id: int, response: Response):
+    # Search muscle
+    muscle = await muscles.get_muscle(muscle_id)
+    # If found, return muscle
+    if muscle: return muscle
+    # Else, return error 404
+    response.status_code = status.HTTP_404_NOT_FOUND
+    return {f"Error, {muscle_id} not found"}

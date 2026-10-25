@@ -13,7 +13,7 @@ class MusclesData:
 
     # Single muscle async data
     async def get_muscle(self,muscle_id: int):
-        muscle={f"Error, {muscle_id} no encontrado"}
+        muscle = None
         # Iterate JSON data
         for item in self.muscles['muscles']:
             # Check id
