@@ -3,5 +3,9 @@ tags_metadata = [
     {
         "name": "muscles",
         "description": "Muscles CRUD related actions"
+    },
+    {
+        "name": "exercises",
+        "description": "Exercises CRUD related actions"
     }
 ]
