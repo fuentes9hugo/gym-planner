@@ -8,8 +8,8 @@ class MusclesData:
         self.muscles = json.load(file)
 
     # Muscles async data
-    async def get_muscles(self):
-        return self.muscles
+    async def get_muscles(self, skip, total, all_muscles):
+        return self.muscles if all_muscles else {"muscles": self.muscles["muscles"][skip:skip + total]}
 
     # Single muscle async data
     async def get_muscle(self,muscle_id: int):

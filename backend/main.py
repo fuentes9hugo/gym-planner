@@ -36,8 +36,8 @@ def read_root():
 # Muscles
 # GET /muscles
 @app.get("/muscles", tags=["muscles"])
-async def read_muscles():
-    return await muscles.get_muscles()
+async def read_muscles(skip: int = 0, total: int = 10, all_muscles: bool | None = None):
+    return await muscles.get_muscles(skip, total, all_muscles)
 
 # GET /muscles/{muscle_id}
 @app.get("/muscles/{muscle_id}",tags=["muscles"], status_code=status.HTTP_200_OK)
